@@ -36,14 +36,9 @@ contract HackyAOSRing{
 	* @param seed the seed of the ring
 	* @param message the message to verify
 	*/
-	function Verify( address[] addresses, uint256[] tees, uint256 seed, uint256 message )
+	function Verify( uint256[] pubkeys, uint256[] tees, uint256 seed, uint256 message )
 		public pure returns (bool)
 	{
-		uint256[] memory pubkeys = new uint256[](addresses.length);
-		for( uint256 p = 0; p < addresses.length; p++ )
-		{
-			pubkeys[p] = uint256(uint160(addresses[p]));
-		}
 		require( pubkeys.length % 2 == 0 );
 		require( pubkeys.length > 0 );
 

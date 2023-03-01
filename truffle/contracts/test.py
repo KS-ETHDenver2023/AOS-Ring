@@ -45,4 +45,12 @@ def isOnCurve(point):
 point = "0x9a69b41c3a73d3f9411216d8e8ec81003645382c67861da75f61424ec45f1c0c027e68a185f1ea4e408222f7d0c5c6ca50c6bf767f185061e7a6df264c28eb29"
 print(isOnCurve(point))
 
+# tranform hex point to int point
+print("---------------------------")
+def hexToPoint(point):
+    x = int(point[0], 16)
+    y = int(point[1], 16)
+    return (x,y)
+
+print(hexToPoint(["fea8aae454369d6347279ce06deff495a0503817f0cc109c9dfae0a6960c89cb","aaef00f9c16a07d2440cf459a287f74459c88b83b69b0b15d6a4c5f78837c3f2"]))
 

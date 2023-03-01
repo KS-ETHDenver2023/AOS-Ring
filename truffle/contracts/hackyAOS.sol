@@ -31,7 +31,7 @@ contract HackyAOSRing{
 
 	/**
 	* @dev verify a ring signature
-	* @param addresses the addresses of the ring (addresses = [key1-x, key1-y, key2-x, key2-y, ..., keyN-x, keyN-y])
+	* @param pubkeys the addresses of the ring (addresses = [key1-x, key1-y, key2-x, key2-y, ..., keyN-x, keyN-y])
 	* @param tees the tees of the ring (tees = [tee1, tee2, ..., teeN])
 	* @param seed the seed of the ring
 	* @param message the message to verify

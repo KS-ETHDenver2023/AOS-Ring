@@ -48,10 +48,6 @@ contract HackyAOSRing{
 
 		for( uint256 i = 0; i < nkeys; i++ )
 		{
-			// TODO: verify (pubkeys[j], pubkeys[j+1]) is on curve
-			// TODO: verify 0 < tees[i] < P
-			// TODO: c = c % N ?	
-
 			c = HackySchnorrCalc(pubkeys[j], pubkeys[j+1], message, tees[i], c);
 			j += 2;
 		}

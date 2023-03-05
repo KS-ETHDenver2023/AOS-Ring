@@ -90,13 +90,17 @@ The only public function is "Verify". You provide the public keys of all the mem
 
 Polygon mainnet : 
 ```
-
+0x7709708E7Aff121164bBA336aEb9653f7467cC2A
 ```
-Scroll Alpha Testnet : 
+Polygon ZkEVM-Testnet : 
 ```
 0x7709708E7Aff121164bBA336aEb9653f7467cC2A
 ```
-Polygon mumbai and scroll alpha testnet : 
+Polygon mumbai : 
+```
+0x7709708E7Aff121164bBA336aEb9653f7467cC2A
+```
+Scroll Alpha Testnet : 
 ```
 0x7709708E7Aff121164bBA336aEb9653f7467cC2A
 ```
@@ -106,7 +110,7 @@ Sepolia testnet:
 ```
 Goerli testnet: 
 ```
-
+0xD4088C08ab1Fac0DcD261f5582dF65B7C67C9bC8
 ```
 
 

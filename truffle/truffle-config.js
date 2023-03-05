@@ -69,10 +69,15 @@ module.exports = {
       gas: 4465030,
       gasPrice: 100000000000,
     },
+    polygon_zkevm_testnet: {
+      provider: () => new HDWalletProvider(MNEMONIC, 'https://rpc.public.zkevm-test.net'),
+      network_id: 1442,
+      confirmations: 2,
+      timeoutBlocks: 200,
+    },
     scroll_alpha_testnet: {
       provider: () => new HDWalletProvider(MNEMONIC, 'https://alpha-rpc.scroll.io/l2'),
       network_id: 534353,
-      
     }
 
     //ganache: {

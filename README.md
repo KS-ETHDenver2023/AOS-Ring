@@ -92,6 +92,10 @@ Polygon mainnet :
 ```
 
 ```
+Scroll Alpha Testnet : 
+```
+0x7709708E7Aff121164bBA336aEb9653f7467cC2A
+```
 Polygon mumbai and scroll alpha testnet : 
 ```
 0x7709708E7Aff121164bBA336aEb9653f7467cC2A

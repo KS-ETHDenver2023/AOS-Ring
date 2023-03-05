@@ -1,5 +1,5 @@
 
-# **Alice's ring - AOS Ring verification**
+# **Alice's ring - AOS Ring**
 
 This smart contract developed during the **ETHDenver 2023 hackathon** is a part of our solvency proof : This contract allow anyone to verify an AOS ring signature.
 

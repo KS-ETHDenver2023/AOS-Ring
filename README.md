@@ -1,7 +1,7 @@
 
-# **Alice's ring - AOS Ring verification**
+# **Alice's ring - AOS Ring**
 
-This smart contract developed during the **ETHDenver 2023 hackathon** is a part of our solvency proof : This contract allow anyone to verify an AOS ring signature.
+This smart contract developed during the **ETHDenver 2023 hackathon** is a part of our solvency proof : This contract allow anyone to verify an AOS ring signature based on SECP256k1.
 
 🎯 Building a simple SoulBound Token for our solvency proof.  
 
@@ -11,7 +11,7 @@ This smart contract developed during the **ETHDenver 2023 hackathon** is a part 
 
 1. Clone this repo 
 ```
-https://github.com/KS-ETHDenver2023/AOS-Ring-verification.git
+git clone https://github.com/KS-ETHDenver2023/AOS-Ring.git
 ```
 2. Install npm
 ```
@@ -34,6 +34,7 @@ npm i @openzeppelin/contracts
 MNEMONIC="Your mnemonic"
 API_KEY="Your infura api key"
 ETHERSCAN="Your etherscan api key"
+POLYGONSCAN="Your polygonscan api key"
 ```
 7. Compile using truffle 
 ```
